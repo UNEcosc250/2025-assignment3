@@ -60,6 +60,12 @@ If you forget, and have lots of sbt processes you don't know how to get rid of, 
 
 Will shutdown any SBT processes it finds.
 
+You can also run it all in one go from a bash terminal, e.g. 
+
+> sbt "server/run 8080 true"
+
+(You might need the quotes around the arguments to do this)
+
 When you have a game server running, open a web browser on the same computer and visit
 
 > `http://localhost:8080` (or whatever alternative port number you chose)
